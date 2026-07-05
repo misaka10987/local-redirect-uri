@@ -2,6 +2,14 @@
 name = "local-redirect-uri"
 version = "0.1.0"
 edition = "2024"
+authors = ["misaka10987 <misaka10987@outlook.com>"]
+description = "A simple HTTP server to provide a local redirect URI for OAuth2 and get the authorization code."
+documentation = "https://github.com/misaka10987/local-redirect-uri"
+homepage = "https://github.com/misaka10987/local-redirect-uri"
+repository = "https://github.com/misaka10987/local-redirect-uri"
+readme = "README.md"
+keywords = ["oauth", "oauth2", "redirect", "uri", "http"]
+license = "MIT"
 
 [dependencies]
 anyhow = "1.0.103"
